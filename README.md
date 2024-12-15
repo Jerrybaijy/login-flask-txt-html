@@ -4,7 +4,9 @@
 
 	<img src="assets/image-20241216003929200.png" alt="image-20241216003929200" style="zoom:50%;" />
 
-- **来源**：`Python` > `Flask 框架`
+- **来源**：`Python` > `Flask 框架`
+
+- **环境**：集成了 Python 的虚拟环境
 
 - **文件**：
 
