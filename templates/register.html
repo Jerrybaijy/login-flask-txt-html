@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>注册</title>
+</head>
+
+<body>
+  <h1>注册页面</h1>
+
+  <!-- 定义submit路由和HTTP协议，向后端提交数据 -->
+  <form action="/register_ok" method="POST">
+    <label for="user">用户名:</label>
+    <!-- name 的属性值 user 作为接收用户输入内容的变量 -->
+    <input type="text" id="user" name="user" required><br><br>
+
+    <label for="pwd">密码:</label>
+    <input type="password" id="pwd" name="pwd" required><br><br>
+
+    <label for="role">角色:</label>
+    <!-- name 的属性值 role 作为接收用户选择内容的变量 -->
+    <select id="role" name="role">
+      <option value="admin">管理员</option>
+      <option value="user">普通用户</option>
+    </select><br><br>
+
+    <label for="gender">性别:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">男</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">女</label><br><br>
+
+    <label for="hobby">爱好:</label>
+    <input type="checkbox" name="hobby" value="reading"> 阅读
+    <input type="checkbox" name="hobby" value="sports"> 体育
+    <input type="checkbox" name="hobby" value="music"> 音乐<br><br>
+
+    <label for="others">其他:</label>
+    <textarea id="others" name="others"></textarea><br><br>
+
+    <button type="submit">提交注册</button>
+  </form>
+
+  <a href="/">返回首页</a>
+</body>
+
+</html>

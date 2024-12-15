@@ -1,0 +1,4 @@
+dsf|dss|teacher|male|['basketball', 'football']|dsfds
+111|222|teacher|female|['football', 'swim']|dsfsf
+222|333|teacher|male|['basketball']|2321
+dsfsd|dfsdf|teacher|female|['basketball']|fdsdfs
