@@ -4,7 +4,7 @@
 
 	<img src="assets/image-20241216003929200.png" alt="image-20241216003929200" style="zoom:50%;" />
 
-- **来源**：[`Python` > `Flask 框架`](../code-language/python/python.md#Flask 框架)；
+- **来源**：`Python` > `Flask 框架`
 
 - **文件**：
 
